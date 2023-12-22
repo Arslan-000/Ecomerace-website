@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar1{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+::placeholder{
+    color: #fff;
+}
+.left-nav ul{
+list-style: none;
+display: flex;
+margin-left: -50px;
+}
+.left-nav ul li{
+    padding: 7px;
+}
+.left-nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.left-nav ul li a .details{
+    margin-left: 10px;
+}
+.right-nav{
+    display: flex;
+}
+.right-nav ul{
+    list-style: none;
+    display: flex;
+}
+.right-nav ul li{
+    text-decoration: none;
+    padding: 8px;
+}
+.right-nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.left-nav2{
+    margin-left: 150px;
+}
+.left-nav2 h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.center-nav2 ul{
+    display: flex;
+}
+.center-nav2 ul li{
+    list-style: none;
+    padding: 20px;
+}
+.center-nav2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.right-nav2{
+    margin-right: 20px;
+}
+.right-nav2 ul{
+    display: flex;
+}
+.right-nav2 ul li{
+    list-style: none;
+    padding: 10px;
+}
+.navbar3{
+    background-color:#6BA32D;
+    display: flex;
+    justify-content: space-around;
+}
+.left-nav3{
+    background-color: #547A1D;
+}
+.navbar3 ul{
+    display: flex;
+}
+.navbar3 ul li{
+    list-style: none;
+    padding: 16px;
+}
+.navbar3 ul li i{
+    margin-top: 7px;
+    color: white;
+}
+.navbar3 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.center-nav3 .input1{
+    width: 400px;
+    border: 0px;
+    padding: 12px;
+    background-color: #547A1D;
+    color: white;
+    border: 1px solid white;
+}
+.center-nav3{
+    margin-top: 10px;
+}
+.right-nav3{
+    margin-top: 15px;
+}
+.right-nav3 h3{
+    color: white;
+}
+.img1{
+    position: relative;
+}
+.img1-child1{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+
+}
+.p1{
+    font-size: 1.3rem;
+    margin-top: -40px;
+    margin-bottom: 35px;
+}
+.p2{
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+.btn-img{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+/* .btn1{
+    background-color: #6BA32D;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 70px;
+} */
+.card1{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.card1 .card1-item1{
+    padding: 15px;
+    position: relative;
+}
+.card1-child1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.card1 .card1-item1 img{
+    border: 1px solid lightskyblue;
+    border-radius: 2%;
+}
+.card2{
+    margin-top: 30px;
+    
+}
+.card2 center{
+    margin-bottom: 20px;
+}
+.card2 ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.card2 ul li {
+    list-style: none;
+    padding: 35px;
+}
+.card2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.card3{
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.item1{
+    padding: 15px;
+}
+.card4{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.card4 .card4-item1{
+    padding: 15px;
+    position: relative;
+}
+.card4-child1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.card4 .card4-item1 img{
+    /* border: 1px solid lightskyblue; */
+    border-radius: 2%;
+}
+.card5{
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card5-item1{
+    padding: 15px;
+}
+.card6{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.card6 .card6-item1{
+    padding: 15px;
+    position: relative;
+}
+.card6-child1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.card6 .card6-item1 img{
+    /* border: 1px solid lightskyblue; */
+    border-radius: 2%;
+}
+.card7{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.card7 ul{
+    display: flex;
+}
+.card7 ul li{
+    list-style: none;
+}
+.card8{
+    background-color: #6BA32D;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    border: 1px solid white;
+    /* margin-bottom: 50px; */
+}
+.card8 ul{
+    display: flex;
+    padding: 20px;
+}
+.card8 ul li{
+    display: flex;
+    padding: 35px;
+    color: white;
+}
+.details{
+    margin-left: 30px;
+}
+.footer-wrapper{
+    background-color:black;
+    height: 550px;
+}
+.footer-services{
+    justify-content: center;
+    display: flex;
+    /* margin-bottom: 100px; */
+}
+.f-item1{
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+.footer-services .f-item1 ul li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: flex;
+}
+.social-icons i{
+    margin-left: 10px;
+}
+.icon-details{
+    margin-left: 20px;
+}
+.f-item2{
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+.footer-services .f-item2 ul li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: flex;
+}
+.f-item3{
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+.footer-services .f-item3 ul li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: flex;
+}
+.f-item4{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.footer-services .f-item4 ul li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: flex;
+}
+.f-item5{
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.footer-services .f-item5 ul li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: flex;
+}
+.payment-icons i{
+    padding: 10px;
+    /* margin-left: 10px; */
+}
+.footer-navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.f-right ul{
+    padding-right: 150px;
+    display: flex;
+}
+.f-left{
+padding-left: 100px;
+}
+.f-right ul li{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding: 15px;
+}
+
